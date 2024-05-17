@@ -7,9 +7,7 @@
 
 /* Body style */
 body {
-    font-family:'Garamond', 'EB Garamond';
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Garamond', 'EB Garamond';
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -21,6 +19,7 @@ main {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
+    color: #29293f;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -40,7 +39,6 @@ header h1 {
 header p {
     font-size: 1em;
     margin-top: 0.5em;
-    font
 }
 
 /* Section styles */
@@ -51,8 +49,8 @@ section {
 section h2 {
     font-size: 1.5em;
     border-bottom: 2px solid #333;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
+    padding-bottom: 0.2em; /* Further reduced padding-bottom */
+    margin-bottom: 0.3em; /* Further reduced margin-bottom */
 }
 
 .job, .school {
@@ -78,4 +76,3 @@ ul {
 li {
     margin-bottom: 0.5em;
 }
-
