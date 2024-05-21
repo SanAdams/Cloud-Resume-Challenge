@@ -23,6 +23,16 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.initials {
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
 /* Header style */
 header {
     text-align: center;
