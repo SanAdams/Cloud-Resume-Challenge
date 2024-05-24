@@ -102,3 +102,11 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2em;
 }
+
+#visitor-counter {
+    text-align: center;
+    display: block; /* Ensures it takes up full width */
+    margin-top: 0.5em; /* Adjust as needed */
+    font-size: 2em; /* Adjust as needed */
+    color: #333; /* Adjust color as needed */
+}
