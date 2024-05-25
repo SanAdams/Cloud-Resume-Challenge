@@ -1,2 +1,8 @@
+#Don't include pictures that will be used in blog post later
 Pictures/
 
+# Don't include various configuration files including terraform and keys and the like
+config/
+
+#Don't include notes you're taking, those will be included in the blog posts later
+notes/
