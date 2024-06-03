@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {  
-    fetch('YOUR_API_GATEWAY_INVOKE_URL', {
+    fetch('https://mhk03kw3wg.execute-api.us-east-1.amazonaws.com/early_dev', {
         method: 'GET',  
         headers: {
             'Content-Type': 'application/json'
