@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('https://mhk03kw3wg.execute-api.us-east-1.amazonaws.com/early_dev', {
         method: 'POST',  
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
         },
         body: JSON.stringify({ stat_name: 'visitor_count' }) 
     })
