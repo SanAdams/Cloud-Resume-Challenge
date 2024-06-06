@@ -3,9 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
         method: 'POST',  
         headers: {
             'Content-Type': 'application/json',
-            'Access-Control-Allow-Headers': '*',
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': '*'
         },
         body: JSON.stringify({ stat_name: 'visitor_count' }) 
     })
