@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ stat_name: 'visitor_count' }) 
+        body: "{\"stat_name\": \"visitor_count\"}" 
     })
     .then(response => response.json())
     .then(response => {
