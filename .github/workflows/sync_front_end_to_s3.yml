@@ -18,4 +18,4 @@ jobs:
           aws-region: us-east-1
       
       - name: Sync front end to S3
-        run: aws s3 sync . s3://sanadams.click
+        run: aws s3 sync . s3://sanadams.click --exclude '.git/*' --exclude '.gitignore' --exclude '.github/*'
