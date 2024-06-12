@@ -1,0 +1,7 @@
+name: Sync front end to S3
+on:
+    push:
+        branches:
+            - master
+jobs:
+    sync:
