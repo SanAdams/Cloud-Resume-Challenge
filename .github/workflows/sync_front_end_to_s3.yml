@@ -21,4 +21,4 @@ jobs:
         run: aws s3 sync . s3://sanadams.click --exclude '.git/*' --exclude '.gitignore' --exclude '.github/*'
 
       - name: Invalidate Cloudfront Cache
-        run: aws cloudfront create-invalidation --distribution-id E2IG49EAIQV2J1
+        run: aws cloudfront create-invalidation --distribution-id E2IG49EAIQV2J1 --invalidation-batch sanadams.click/*
