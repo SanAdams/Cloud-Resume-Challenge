@@ -18,7 +18,7 @@ jobs:
           aws-region: us-east-1
       
       - name: Sync front end to S3
-        run: aws s3 sync . s3://sanadams.click --exclude '.git/*' --exclude '.gitignore' --exclude '.github/*'
+        run: aws s3 sync . s3://sanadams.click --exclude '.git/*' --exclude '.gitignore' --exclude '.github/*' --exclude package.json --exclude package-lock.json
 
       - name: Invalidate Cloudfront Cache
         run: aws cloudfront create-invalidation --distribution-id E2IG49EAIQV2J1 --paths "/*"

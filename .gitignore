@@ -6,3 +6,6 @@ config/
 
 #Don't include notes you're taking, those will be included in the blog posts later
 notes/
+
+# Don't include node_modules lol
+node_modules
