@@ -196,7 +196,7 @@ textarea,
 select {
   font-family: "Source Sans Pro";
   font-weight: 300;
-  color: #5d5d5d;
+  /* color: #101010; */
   font-size: 14pt;
   line-height: 1.75em;
 }
@@ -1665,6 +1665,8 @@ footer {
   margin: 2.25em 0 0 0;
 }
 
+
+
 /* Box */
 
 .box {
@@ -2179,6 +2181,12 @@ ul.social li a.fa-google-plus:hover {
   line-height: 1;
 }
 
+#visitor-counter {
+  text-align: center;
+  margin-top: 1em; /* Adjust as needed */
+  color: #333; /* Adjust color as needed */
+}
+
 /* Nav */
 
 #nav {
@@ -2391,6 +2399,10 @@ ul.social li a.fa-google-plus:hover {
 }
 
 /* Footer */
+
+.col-4.col-12-medium {
+  justify-content: center;
+}
 
 #footer {
   position: relative;
