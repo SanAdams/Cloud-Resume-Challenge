@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     .then(response => response.json())
     .then(response => {
-        document.getElementById('visitor-counter').textContent = `You are visitor number: ${response.quantity}`;
+        document.getElementById('visitor-counter').textContent = `You are visitor: ${response.quantity}`;
     })
     .catch(error => console.error('Error:', error));
 });
